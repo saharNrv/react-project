@@ -1,0 +1,60 @@
+.tariff-section{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+    direction: rtl;
+}
+.tariff-wrapper{
+    width: 80%;
+    margin: 0px auto;
+}
+.tariff-info{
+    text-align: center;
+}
+.tariff-title{
+    color: #003379;
+    font-size: 30px;
+}
+.tariff-text{
+    color: #555;
+    letter-spacing: 0.8px;
+}
+.tariff-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* ///// */
+.tarifbox1{
+    width: 350px;
+    border-radius: 10px;
+    background-color: #003379;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 80px;
+}
+.tariff-img{
+
+}
+.tariff-price1{
+
+    font-size: 30px;
+}
+.tariff-list1{
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.tariff-item1{
+margin-bottom: 10px;
+}
+.tarifbox button{
+    font-weight: bold;
+}
+.line1{
+    text-decoration: line-through;
+}

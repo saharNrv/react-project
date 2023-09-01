@@ -1,0 +1,30 @@
+.service-section{
+     padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #fbfbfb;
+    position: relative;
+    direction: rtl;
+}
+.service-wrap{
+    width: 80%;
+    /* height: 40px; */
+    /* background-color: red; */
+    margin: 0px auto;
+}
+.service-subtitle{
+    color: #888;
+}
+.service-title{
+ color: #003379;
+ font-size: 30px;
+ margin-bottom: 20px;
+}
+.service-text{
+color: #666;
+}
+.service-box-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

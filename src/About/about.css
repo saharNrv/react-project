@@ -1,0 +1,42 @@
+.about-section{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #edecfd;
+    position: relative;
+    direction: rtl;
+}
+.about-wrap{
+    width: 80%;
+    /* height: 40px; */
+    margin: 0px auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.about-right{
+    width: 50%;
+}
+.about-left{
+    width: 50%;
+    padding-top: 50px;
+
+}
+.subtitle{
+    color: #888;
+}
+.about-title{
+    color: #003379;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about-text{
+    line-height: 1.8;
+    color: #666;
+}
+.about-left button{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.about-left button:hover{
+    background-color: #44bf8d;
+}
