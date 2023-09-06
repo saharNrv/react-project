@@ -1,13 +1,13 @@
 import './blogBox.css'
 
-function BlogBox(){
+function BlogBox(props){
     return(
         <div className='blog-box'>
-            <img src="./img/blog-3.jpg" alt="" className='blog-box-img'/>
+            <img src={props.image} alt="" className='blog-box-img'/>
             <h3 className='blog-box-title'>لورم ایپسوم متن ساختگی با</h3>
             <div className='blog-box-btn'>
-                <span className='blog-date'>1398-04-15</span>
-                <span className='blog-btn'>مدرن</span>
+                <span className='blog-date'>{props.date}</span>
+                <span className='blog-btn'>{props.btn}</span>
             </div>
 
         </div>

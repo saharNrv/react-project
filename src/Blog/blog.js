@@ -1,6 +1,11 @@
 import BlogBox from './BlogBox/blogBox'
 import './blog.css'
 function Blog(){
+    let blogs=[
+        {id:1,image:'./img/blog-1.jpg',date:'1402/06/15',btn:'مدرن'},
+        {id:2,image:'./img/blog-2.jpg',date:'1401/02/25',btn:'اخبار'},
+        {id:3,image:'./img/blog-3.jpg',date:'1400/10/08',btn:'نرم افزار'},
+    ]
     return(
         <div className='blog-section'>
             <div className="blog-wrapper">
@@ -12,9 +17,9 @@ function Blog(){
                 </div>
 
                 <div className="blog-box-wrpapper">
-                    <BlogBox/>
-                    <BlogBox/>
-                    <BlogBox/>
+                    <BlogBox {...blogs[0]}/>
+                    <BlogBox {...blogs[1]}/>
+                    <BlogBox {...blogs[2]}/>
                 </div>
 
             </div>
